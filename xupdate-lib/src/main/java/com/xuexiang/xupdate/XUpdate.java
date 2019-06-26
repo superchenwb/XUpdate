@@ -47,7 +47,7 @@ import java.util.TreeMap;
  */
 public class XUpdate {
 
-    private Application mContext;
+    private Context mContext;
     private static XUpdate sInstance;
 
     //========全局属性==========//
@@ -138,7 +138,7 @@ public class XUpdate {
         UpdateError.init(mContext);
     }
 
-    private Application getApplication() {
+    private Context getApplication() {
         testInitialize();
         return mContext;
     }
