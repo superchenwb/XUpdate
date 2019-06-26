@@ -133,7 +133,7 @@ public class XUpdate {
      *
      * @param application
      */
-    public void init(Application application) {
+    public void init(Context application) {
         mContext = application;
         UpdateError.init(mContext);
     }
